@@ -25,6 +25,7 @@ public class Solution {
             }
         }
 
+
         solu += String.format("The %d unique words are:\n", tracker.size());
         int size = 0;
         for (String s : tracker.keySet()) {
